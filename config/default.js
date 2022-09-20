@@ -23,8 +23,8 @@ export default {
     lang: 'en-US',
     locale: 'en_US',
     type: 'website',
-    themeColor: '#030303',
-    backgroundColor: '#030303'
+    // themeColor: '#030303',
+    // backgroundColor: '#030303'
   },
 
   breakpoints: {

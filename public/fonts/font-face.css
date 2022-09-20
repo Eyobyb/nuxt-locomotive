@@ -38,3 +38,18 @@
   font-display: swap;
   src: url('/fonts/I-600.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
+  font-style: normal;
+  src: url('./fonts/Raleway-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Inter-Bold.ttf') format("truetype");
+  ;
+}

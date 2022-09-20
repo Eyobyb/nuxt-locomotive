@@ -14,8 +14,15 @@ module.exports = {
 
     extend: {
       colors: {
-        dark: '#030303'
+        dark: '#030303',
+        primary:'#23252F',
+        customGray:'#BFBFBF'
+      },
+      fontFamily:{
+        'Raleway':['Raleway'],
+        'Inter':['inter']
       }
+
     }
   }
 }

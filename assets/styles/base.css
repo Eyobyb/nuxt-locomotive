@@ -20,7 +20,7 @@ html.has-scroll-dragging {
 }
 
 html {
-  @apply bg-dark text-white;
+  /* @apply bg-dark text-white; */
 }
 
 .lazyload,

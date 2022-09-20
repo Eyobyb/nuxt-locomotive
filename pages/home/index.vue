@@ -1,16 +1,19 @@
 <template>
   <main>
-    <SectionHero />
+    <!-- <SectionHero />  -->
     <SmoothScroll>
-      <SectionSpace />
-      <SectionItemLeft />
+      <hero />
+      <about />
+      <!-- <SectionSpace /> -->
+      <!-- <SectionItemLeft />
       <SectionItemRight />
       <SectionItemLeft />
       <SectionItemRight />
       <SectionItemLeft />
       <SectionItemRight />
-      <SectionItemLeft />
-      <SectionSpace />
+      <SectionItemLeft />-->
+      <!-- <SectionSpace /> -->
+      <Footer />
     </SmoothScroll>
     <CursorFollower />
   </main>
@@ -23,6 +26,9 @@ import SectionItemLeft from './SectionItemLeft'
 import SectionItemRight from './SectionItemRight'
 import SmoothScroll from '~/components/SmoothScroll'
 import CursorFollower from '~/components/CursorFollower'
+import Hero from '../Hero/Hero.vue'
+import About from '../../components/About.vue'
+import Footer from '../footer/Footer.vue'
 
 export default {
   components: {
@@ -31,7 +37,10 @@ export default {
     SectionItemLeft,
     SectionItemRight,
     SmoothScroll,
-    CursorFollower
+    CursorFollower,
+    Hero,
+    About,
+    Footer
   },
 
   data() {
@@ -104,6 +113,7 @@ export default {
           opacity: 1,
           scale: 1,
           rotation: 360,
+          transformOrigin: '50% 50%',
           onComplete
         },
         '-=2.5'
@@ -126,3 +136,15 @@ export default {
   }
 }
 </script>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+.font-fam-inter {
+  font-family: 'Inter', sans-serif;
+}
+.font-fam-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+</style>

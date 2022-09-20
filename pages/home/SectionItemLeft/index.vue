@@ -1,11 +1,14 @@
 <template>
   <section data-scroll-section>
-    <div data-scroll data-scroll-call="itemAnimation" data-block-item></div>
+    <div data-scroll data-scroll-call="itemAnimation" data-block-item>
+      <hero />
+    </div>
   </section>
 </template>
 
 <script>
-export default {}
+import Hero from '../../Hero/Hero.vue'
+export default { components: { Hero } }
 </script>
 
 <style scoped>

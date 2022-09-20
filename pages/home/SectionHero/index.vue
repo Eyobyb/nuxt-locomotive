@@ -9,14 +9,12 @@
           data-img-star
           data-src="/images/star.png"
           class="lazyload absolute top-0 left-0 w-full h-full object-cover opacity-0 transform scale-0"
-          alt=""
+          alt
           draggable="false"
         />
       </figure>
     </div>
-    <div
-      class="z-10 absolute w-full max-w-screen-xl xl:max-w-[80vw] overflow-hidden p-10"
-    >
+    <div class="z-10 absolute w-full max-w-screen-xl xl:max-w-[80vw] overflow-hidden p-10">
       <SvgTitle data-svg-title class="opacity-0 transform translate-y-[150%]" />
     </div>
   </div>
